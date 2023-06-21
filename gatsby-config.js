@@ -6,5 +6,7 @@ module.exports = {
     title: `fig-site`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-postcss'
+  ],
 }
