@@ -3,9 +3,16 @@ import * as React from "react"
 const Homepage = () => {
   return (
 <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+
+  {/*/this is the background image/*/}
   <img src="/img/beams.jpg" alt="" class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308" />
+
+
   <div class="absolute inset-0 bg-[url(/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+
+  {/*/this is the floating main element/*/}
   <div class="relative bg-pink-100 px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+
     <div class="mx-auto max-w-md">
       <div class="divide-y divide-gray-300/50">
         <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
@@ -33,12 +40,14 @@ const Homepage = () => {
             </li>
 
             <li class="flex items-center">
-              <svg class="h-6 w-6 flex-none fill-violet-300">
-                <circle cx="12" cy="12" r="11" />
-                <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+              <svg class="flex-none fill-violet-300 bi bi-music-note" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16">
+              <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+              <path fill-rule="evenodd" d="M9 3v10H8V3h1z"/>
+              <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"/>
               </svg>
+
               <p class="ml-4 font-mono tracking-wide">
-                Making Sonic Things
+                <a href="https://bloodhunny.bandcamp.com/">Making Music Things</a>
               </p>
             </li>
           </ul>
