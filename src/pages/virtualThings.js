@@ -1,7 +1,6 @@
-import * as React from "react";
-import VirtualThings from './virtualThings.js';
+import * as React from "react"
 
-const Homepage = () => {
+const VirtualThings = () => {
   return (
 <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
 
@@ -18,7 +17,7 @@ const Homepage = () => {
 
     <div class="divide-y divide-gray-300/50">
         <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
-          <h1 class="text-center text-5xl font-mono tracking-wide">Fig Fishkin</h1>
+          <h1 class="text-center text-5xl font-mono tracking-wide">Fig's Virtual Things</h1>
 
           <ul class="space-y-4">
 
@@ -67,10 +66,6 @@ const Homepage = () => {
 </div>
   )
 }
-
-// export default Homepage
-
-// export const Head = () => <title>Fig's Site</title>
 
 export default VirtualThings
 
