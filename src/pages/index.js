@@ -2,6 +2,7 @@ import * as React from "react";
 import VirtualThings from './virtualThings.js';
 
 const Homepage = () => {
+
   return (
 <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
 
@@ -68,10 +69,6 @@ const Homepage = () => {
   )
 }
 
-// export default Homepage
+  export default Homepage
 
-// export const Head = () => <title>Fig's Site</title>
-
-export default VirtualThings
-
-export const Head = () => <title>Fig's Virtual Things</title>
+  export const Head = () => <title>Fig's Site</title>
