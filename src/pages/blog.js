@@ -52,7 +52,7 @@ return(
             feels like having a tangled rope of logical pieces plopped in front of you and you have to untangle it... with your brain. Does that make sense?
             <br></br>
             <br></br>
-            The harder a coding challenge, the more frustrated I feel, the more I need to self-soothe and stim. So, here I am,
+            The harder a coding challenge, the more frustrated I feel, the more I need to self-soothe and <a class="underline" href="https://chadd.org/adhd-weekly/stimming-and-fidgeting-helps-some-people-with-adhd-to-pay-attention/#:~:text=Self%2Dstimulatory%20behavior%2C%20often%20called,engage%20in%20self%2Dstimulatory%20behaviors.">stim</a>. So, here I am,
             a 31 year old sitting in front of their computer, rocking back and forth and aggressively eating chips to cope with the
             frustration with the mental gymnastics that the current algorithm I'm writing requires. And I see that some things, namely my brain,
             have not changed since I was a 13 year old with a bowl of mac and cheese trying to solve a math problem at my kitchen table.
