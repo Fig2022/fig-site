@@ -18,6 +18,7 @@ const VirtualThings = () => {
     <div class="divide-y divide-gray-300/50">
         <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
           <h1 class="text-center text-5xl font-mono tracking-wide">Fig's Virtual Things</h1>
+          <p>Coming Soon!</p>
         </div>
 
         <div class="pt-8 text-base font-mono leading-7 text-xs">
