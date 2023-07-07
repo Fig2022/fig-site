@@ -92,7 +92,10 @@ return(
     </div>
   </div>
 
-<p><a href="https://figsitemain.gatsbyjs.io/">Back to Homepage</a></p>
+<div class="text-center text-2xl font-mono tracking-wide">
+  <a href="https://figsitemain.gatsbyjs.io/">Back to Homepage</a>
+</div>
+
 
 </div>
 )
