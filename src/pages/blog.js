@@ -92,6 +92,8 @@ return(
     </div>
   </div>
 
+<p><a href="https://figsitemain.gatsbyjs.io/">Back to Homepage</a></p>
+
 </div>
 )
 }
